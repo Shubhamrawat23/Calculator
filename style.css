@@ -1,0 +1,100 @@
+.main{
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(to bottom right,rgb(36, 123, 247),rgb(35, 53, 209),rgb(12, 3, 87),rgb(6, 1, 48) );
+    /* background-color: #031546; */
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    text-align: center;
+    color: rgb(197, 108, 108);
+    font-size:xx-large;
+    margin-bottom: 2rem;
+}
+
+#mainbox{
+    box-shadow: 0 0 1rem whitesmoke;
+    border-radius: 2rem;
+}
+
+.display {
+    /* border: black 2px solid; */
+    border-radius: 2rem;
+	height: 9rem;
+    width: 19rem;
+	padding: 0.6rem;
+	display: flex;
+    flex-direction: column;
+	justify-content: flex-end;
+	align-items: center;
+	text-align: right;
+    margin-bottom: 0;
+}
+
+/* #screen{
+    background-color: aqua;
+    border: black 2px solid; 
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: auto;
+} */
+.input{
+    height: 50%;
+    /* border: red 2px solid; */
+    width: 100%;
+    text-align: right;
+    margin-top: 0.5rem;
+    font-size: 1.8rem;
+    color: azure;
+    overflow:auto;
+}
+/* .input:focus{
+    box-shadow: 0 0 0.7rem rgb(237, 187, 95)
+} */
+.output{
+    /*border: green 2px solid;*/
+    width: 100%;
+    height: 50%;
+    text-align: right;
+    margin-bottom: 0.5em;
+    font-weight: bolder;
+    font-size: 2.2rem;
+    color: azure;
+    overflow: auto;
+    
+}
+
+#keys{
+    display: inline-block;
+    border-radius: 2rem;
+    /* border: 2px black solid; */
+    align-items: center;
+    width: 20rem;
+    padding: 0.2rem 0 0.5rem 0;
+    margin-top: -1rem;
+    
+}
+#row1,#row2,#row3,#row4,#row5{
+    text-align: center;
+}
+.buttons{
+    margin: 0.2rem;
+    height: 4rem;
+    width: 4rem;
+    border-radius: 1rem;
+    background-color: rgb(86, 203, 232);
+}
+.buttons:hover{
+    background-color:rgb(212, 210, 204);
+}
+.buttons:active{
+    box-shadow: 0 0 0.8rem red;
+}
+
